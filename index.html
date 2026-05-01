@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pooja Maurya - Information Technology Student</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="loader"></div>
+            <p class="loader-text">Loading...</p>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">Portfolio</h1>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#honors">Honors & Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <canvas id="particles-canvas" class="particles-canvas"></canvas>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Pooja Maurya</h1>
+                <p class="hero-subtitle"><span class="typed-text" id="typed-output"></span><span class="cursor-blink">|</span></p>
+                <p class="hero-description">
+                    Detail-oriented Information Technology undergraduate at Shree L.R. Tiwari College of Engineering. Strong foundation in front-end development, actively learning data structures in Python, and focused on writing clean, structured, maintainable code.
+                </p>
+                <div class="hero-contact-info">
+                    <span><i class="fas fa-phone"></i> +91 8828339585</span>
+                    <span><i class="fas fa-envelope"></i> pooja.devhub@gmail.com</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-3d">
+                    <div class="floating-shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                    </div>
+                    <div class="profile-ring"></div>
+                    <img src="profile.jpeg" alt="Pooja Maurya" class="profile-img" onerror="this.src='https://via.placeholder.com/300x300/333/fff?text=PM';">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a detail-oriented Information Technology undergraduate (B.E., 2023–2027) at Shree L.R. Tiwari College of Engineering, affiliated with the University of Mumbai. I have a strong foundation in front-end development using HTML, CSS, and JavaScript, with hands-on experience building responsive web projects and implementing UI features.
+                    </p>
+                    <p>
+                        I am actively learning data structures in Python and focused on writing clean, structured, and maintainable code. I have developed projects in Computer Vision, Deepfake Detection, and Fraud Detection systems. I am seeking opportunities to apply my technical skills in real-world projects, internships, or entry-level roles.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item"><i class="fas fa-code"></i> Front-End Development</div>
+                        <div class="highlight-item"><i class="fas fa-brain"></i> AI & Machine Learning</div>
+                        <div class="highlight-item"><i class="fas fa-shield-alt"></i> Fraud Detection</div>
+                        <div class="highlight-item"><i class="fas fa-eye"></i> Computer Vision</div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+                        <h3>5+</h3>
+                        <p>Major Projects</p>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+                        <h3>50+</h3>
+                        <p>Certifications</p>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+                        <h3>5+</h3>
+                        <p>Awards Won</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="resume">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-content">
+                    <h3>Bachelor of Engineering in Information Technology</h3>
+                    <p class="education-status">University of Mumbai - Shree L.R. Tiwari College of Engineering</p>
+                    <p class="education-college">Mumbai, Maharashtra | Aug 2023 – May 2027</p>
+                </div>
+            </div>
+            <div class="coursework-section">
+                <h3>Relevant Coursework</h3>
+                <div class="coursework-grid">
+                    <span class="coursework-item"><i class="fas fa-code"></i> Data Structures</span>
+                    <span class="coursework-item"><i class="fab fa-java"></i> Java</span>
+                    <span class="coursework-item"><i class="fas fa-chart-line"></i> Algorithms Analysis</span>
+                    <span class="coursework-item"><i class="fas fa-database"></i> Database Management</span>
+                    <span class="coursework-item"><i class="fas fa-robot"></i> Artificial Intelligence</span>
+                    <span class="coursework-item"><i class="fas fa-code"></i> C/C++</span>
+                    <span class="coursework-item"><i class="fab fa-react"></i> React</span>
+                    <span class="coursework-item"><i class="fab fa-html5"></i> HTML/CSS</span>
+                    <span class="coursework-item"><i class="fab fa-js"></i> JavaScript</span>
+                    <span class="coursework-item"><i class="fab fa-python"></i> Python</span>
+                    <span class="coursework-item"><i class="fab fa-github"></i> GitHub</span>
+                    <span class="coursework-item"><i class="fas fa-layer-group"></i> Full-Stack Development</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Programming & Web</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                        <span class="skill-item">C/C++</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Libraries & Concepts</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">NumPy</span>
+                        <span class="skill-item">Pandas</span>
+                        <span class="skill-item">OpenCV</span>
+                        <span class="skill-item">Machine Learning (Basics)</span>
+                        <span class="skill-item">Computer Vision</span>
+                        <span class="skill-item">TensorFlow</span>
+                        <span class="skill-item">PyTorch</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Databases</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">GitHub</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">Flask</span>
+                        <span class="skill-item">AWS (Workshops)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-lightbulb"></i> Core Concepts</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Data Structures</span>
+                        <span class="skill-item">Algorithms</span>
+                        <span class="skill-item">OOP</span>
+                        <span class="skill-item">DBMS</span>
+                        <span class="skill-item">NetworkX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>FlowLens – Fraud Detection & Fund Flow Tracking System</h3>
+                        <p class="project-year">2026</p>
+                        <p>Developed a fraud detection system to analyze historical and real-time transactions and identify suspicious financial activities. Implemented graph-based fund flow tracing to track multi-hop transactions and detect final beneficiary accounts.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>MongoDB</span>
+                            <span>NetworkX</span>
+                        </div>
+                        <ul class="project-features">
+                            <li>Graph-based fund flow tracing for multi-hop transactions</li>
+                            <li>Risk scoring and geo-risk monitoring modules</li>
+                            <li>Real-time fraud analysis and alert generation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Deepfake Detection in the Era</h3>
+                        <p class="project-year">2026</p>
+                        <p>Developed a Deepfake Detection System using CNN-based models for image and video analysis. Implemented using Python with data preprocessing and model training pipelines.</p>
+                        <div class="project-tech">
+                            <span>TensorFlow</span>
+                            <span>PyTorch</span>
+                            <span>CNN</span>
+                            <span>Python</span>
+                        </div>
+                        <ul class="project-features">
+                            <li>CNN-based models for image and video analysis</li>
+                            <li>High accuracy in detecting manipulated media</li>
+                            <li>Model performance optimization through tuning</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Yoga Pose Detection System</h3>
+                        <p class="project-year">2024</p>
+                        <p>Built a real-time posture detection system using Python and OpenCV to analyze body movements via webcam input. Implemented visual and voice-based feedback to help users correct yoga poses accurately.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <ul class="project-features">
+                            <li>Real-time posture detection via webcam</li>
+                            <li>Visual and voice-based feedback system</li>
+                            <li>Optimized frame processing and pose alignment</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>AgroPredict – Crop Recommendation System</h3>
+                        <p class="project-year">2025</p>
+                        <p>Developed a smart crop recommendation system that analyzes soil nutrients and weather conditions to predict the most suitable crops for farmers, improving agricultural yield and decision-making.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Flask</span>
+                            <span>Data Analysis</span>
+                        </div>
+                        <ul class="project-features">
+                            <li>Soil nutrient analysis for crop suitability</li>
+                            <li>Weather-based crop prediction</li>
+                            <li>User-friendly recommendation interface</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Smart Blind Stick – Obstacle Detection System</h3>
+                        <p class="project-year">2024</p>
+                        <p>An assistive device for visually impaired individuals using ultrasonic sensors and Arduino to detect obstacles and provide audio feedback through varying buzzer patterns based on object distance.</p>
+                        <div class="project-tech">
+                            <span>Arduino UNO</span>
+                            <span>Ultrasonic Sensor</span>
+                            <span>Embedded C</span>
+                        </div>
+                        <ul class="project-features">
+                            <li>Real-time obstacle detection with distance measurement</li>
+                            <li>Variable buzzer patterns based on proximity</li>
+                            <li>Portable and cost-effective design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Internship</h2>
+            <div class="certifications-grid">
+                <div class="cert-card cert-internship">
+                    <div class="cert-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Internship – Aptech Ltd</h3>
+                    <p class="cert-date">Jan 2026</p>
+                    <p>Trainee – Junior Server In Charge (16th Jan – 25th Jan 2026). Gained hands-on experience in Server Management, Networking, and SQL Databases.</p>
+                    <div class="cert-badge">Completed</div>
+                </div>
+                <div class="cert-card cert-aws-bharat">
+                    <div class="cert-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AWS AI for Bharat – Certificate of Recognition</h3>
+                    <p class="cert-date">Dec 2025</p>
+                    <p>Successfully completed Workshop 3: Building an Image Editing Serverless Application with generative AI capabilities on AWS. Published technical blog on AWS Builder Center.</p>
+                    <div class="cert-badge">Recognized</div>
+                </div>
+                <div class="cert-card cert-saavishkar">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Saavishkar 2026 – Certificate of Appreciation</h3>
+                    <p class="cert-date">2026</p>
+                    <p>Qualified for Round 2 | Organized by NMIMS MPSTME & IEEE Computer Society</p>
+                    <div class="cert-badge">Qualified</div>
+                </div>
+                <div class="cert-card cert-forage">
+                    <div class="cert-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Solutions Architecture Job Simulation</h3>
+                    <p class="cert-date">Apr 2025</p>
+                    <p>Forage – Practical training in scalable hosting architectures</p>
+                    <div class="cert-badge">Completed</div>
+                </div>
+                <div class="cert-card cert-aws">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>All India Women Start-a-thon (AWS)</h3>
+                    <p class="cert-date">2025-26</p>
+                    <p>Certificate of Participation</p>
+                    <div class="cert-badge">Participated</div>
+                </div>
+                <div class="cert-card cert-hackathon">
+                    <div class="cert-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>NeoFuture Hackathon</h3>
+                    <p class="cert-date">2025</p>
+                    <p>Certificate of Participation</p>
+                    <div class="cert-badge">Participated</div>
+                </div>
+                <div class="cert-card cert-nakshatra">
+                    <div class="cert-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Nakshatra National Level 24-Hour Hackathon</h3>
+                    <p class="cert-date">2025</p>
+                    <p>Certificate of Participation</p>
+                    <div class="cert-badge">Participated</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="honors" class="honors">
+        <div class="container">
+            <h2 class="section-title">Honors & Awards</h2>
+            <div class="honors-grid">
+                <div class="honor-card honor-prize">
+                    <div class="honor-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="honor-content">
+                        <h3>2nd Prize – ProjectTech 2k25</h3>
+                        <p class="honor-org">Shree L. R. Tiwari College of Engineering</p>
+                        <p class="honor-date">Aug 2025</p>
+                        <p class="honor-desc">For project "Yoga Pose Detection" (team innovation)</p>
+                    </div>
+                </div>
+                <div class="honor-card honor-cultural">
+                    <div class="honor-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="honor-content">
+                        <h3>Cultural Excellence Award</h3>
+                        <p class="honor-org">Rahul Education & Shree L. R. Tiwari College of Engineering</p>
+                        <p class="honor-date">2023-2024 & 2024-2025</p>
+                        <p class="honor-desc">Recognized for leadership & cultural committee contribution</p>
+                    </div>
+                </div>
+                <div class="honor-card honor-first">
+                    <div class="honor-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="honor-content">
+                        <h3>1st Position – Mystic Palette</h3>
+                        <p class="honor-org">Elation 2024, Amity Global Business School</p>
+                        <p class="honor-date">Mar 2024</p>
+                        <p class="honor-desc">Creativity & design flair</p>
+                    </div>
+                </div>
+                <div class="honor-card honor-second">
+                    <div class="honor-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="honor-content">
+                        <h3>2nd Position – A Masterpiece in Disguise</h3>
+                        <p class="honor-org">Mediathon 2025, St. Pauls Institute of Communication Education for Women</p>
+                        <p class="honor-date">Jan 2025</p>
+                        <p class="honor-desc">Paint a Masterpiece</p>
+                    </div>
+                </div>
+                <div class="honor-card honor-consolation">
+                    <div class="honor-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="honor-content">
+                        <h3>Consolation Prize – Aarambh Cultural Fest 2025</h3>
+                        <p class="honor-org">Smt. K.L. Tiwari College</p>
+                        <p class="honor-date">2025</p>
+                        <p class="honor-desc">Cultural fest participation recognition</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Sariput Nagar, Jogeshwari Vikroli Link Road<br>Andheri (East), Mumbai-400093</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon-box"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+918828339585">+91 8828339585</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon-box"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:pooja.devhub@gmail.com">pooja.devhub@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://www.linkedin.com/in/pooja-maurya-9070b52b8" target="_blank" rel="noreferrer" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/PoojaMaurya0742" target="_blank" rel="noreferrer" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="mailto:pooja.devhub@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+918828339585" class="social-link"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/pooja-maurya-9070b52b8" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/PoojaMaurya0742" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+                <a href="mailto:pooja.devhub@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2025 Pooja Maurya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
